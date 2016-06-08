@@ -1,0 +1,13 @@
+{
+    "name": "caballero.jm/nelle",
+    "type": "semantic/ui",
+    "require": {
+        "semantic/ui": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "Jeremiah Caballero",
+            "email": "jeremiah.caballero.jc@gmail.com"
+        }
+    ]
+}

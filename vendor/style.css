@@ -1,0 +1,65 @@
+.my_carousel {
+    position: absolute; 
+}
+
+.img_carousel {
+    width: 100%;
+    height: auto;  
+}
+
+.carousel-prev {
+    position:fixed;
+    font-size: 100;
+    width:100px;
+    height:100px;
+    left: 50px;
+    border: 1px;
+    border-color: blue;
+}
+
+.carousel-next {
+    position:fixed;
+    font-size: 100;
+    width:100px;
+    height:100px;
+    right: 0px;
+    border: 1px;
+    border-color: blue;
+}
+
+.navbar ul{
+   position: fixed;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   border: 1px solid transparent;
+   background-color: transparent;
+}
+
+.navbar ul > li {
+    float: left;
+}
+
+.navbar ul > li  a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 50px 50px;
+    text-decoration: none;
+}
+
+.navbar ul > li a:hover:not(.active) {
+    background-color:  rgba(25,25,25,0.3);
+    font-size: 25;
+}
+
+.navbar ul > li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.center {
+    margin: auto;
+    width: 65%;
+}
